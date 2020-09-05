@@ -38,8 +38,7 @@ function preload(){
 function setup() {
   createCanvas(600, 200);
 
-  var message = "This is a message";
- console.log(message)
+  
   
   trex = createSprite(50,160,20,50);
   trex.addAnimation("running", trex_running);
@@ -79,7 +78,7 @@ function setup() {
 
 function draw() {
   
-  background(180);
+  background("white");
   //displaying score
   text("Score: "+ score, 500,50);
   
